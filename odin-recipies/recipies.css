@@ -1,0 +1,74 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    border: solid black;
+    border-radius: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.logo:hover {
+    color: black;
+    border: solid 5px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.headimage {
+    background-color: white;
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid white;
+    border-radius: 25px;
+}
+
+.headimage h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.description p {
+    padding-left: 40px;
+}
+.description, .need, .steps {
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid white;
+    border-radius: 25px;
+}
+
+.need li {
+    list-style: none;
+    text-align: left;
+}
+
+.steps, h3 {
+    text-align: center;
+}
+
+.steps {
+    text-align: left;
+}
